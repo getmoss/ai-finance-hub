@@ -1,0 +1,9 @@
+# Python caches and editor files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Files the skill scripts write into the folder they run from.
+matched.csv
+excluded.csv
+unmatched.csv
