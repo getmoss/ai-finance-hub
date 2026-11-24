@@ -25,6 +25,7 @@ These skills are examples that answer one finance task each, from your live Moss
 | [Invoice Status Lookup](mcp-use-cases/moss-invoice-status-lookup) | Finds one invoice from any detail and shows whether it is already in Moss and where it stands. | Accounts payable, Suppliers, Approvals |
 | [Invoices Due and Overdue](mcp-use-cases/moss-invoices-due-and-overdue) | Lists unpaid invoices due soon, shows overdue ones separately and compares the total with your balance. | Accounts payable, Cash management |
 | [Invoices Without Attachment](mcp-use-cases/moss-invoices-without-attachment) | Finds supplier invoices with no attachment and who to ask for the document. | Receipts and documents, Month-end close |
+| [Latest Card Spend](mcp-use-cases/moss-latest-card-spend) | Shows the latest card payments with receipt and coding status. | Cards and employee expenses |
 | [Missing Receipt Chaser](mcp-use-cases/moss-missing-receipt-chaser) | Lists card transactions with no receipt and drafts a reminder for each cardholder. | Receipts and documents, Month-end close, Cards and employee expenses |
 | [Overdue Suppliers Ranking](mcp-use-cases/moss-overdue-suppliers-ranking) | Lists suppliers with overdue invoices, ranked by days overdue and by amount. | Accounts payable, Suppliers |
 | [Paid and Failed Payments](mcp-use-cases/moss-paid-and-failed-payments) | Lists paid and failed payments in a period and any later payment to the same payee. | Accounts payable, Month-end close |
