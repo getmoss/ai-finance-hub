@@ -1,0 +1,676 @@
+match_type,pattern,category,canonical,is_ai,is_excluded
+like,openai,AI Tools,OpenAI,1,0
+like,anthropic,AI Tools,Anthropic,1,0
+like,claude,AI Tools,Anthropic,1,0
+like,elevenlabs,AI Tools,ElevenLabs,1,0
+like,perplexity,AI Tools,Perplexity,1,0
+like,midjourney,AI Tools,Midjourney,1,0
+like,heygen,AI Tools,HeyGen,1,0
+like,higgsfield,AI Tools,Higgsfield,1,0
+like,openrouter,AI Tools,OpenRouter,1,0
+like,gamma.app,AI Tools,Gamma,1,0
+like,mistral,AI Tools,Mistral,1,0
+exact,xai,AI Tools,xAI,1,0
+like,klingai,AI Tools,KlingAI,1,0
+like,runway,AI Tools,Runway,1,0
+like,synthesia,AI Tools,Synthesia,1,0
+exact,manus,AI Tools,Manus,1,0
+like,langdock,AI Tools,Langdock,1,0
+like,granola,AI Tools,Granola,1,0
+like,fireflies,AI Tools,Fireflies,1,0
+like,wispr,AI Tools,Wispr,1,0
+exact,deepl,AI Tools,DeepL,1,0
+like,deepl ,AI Tools,DeepL,1,0
+exact,www.deepl.com,AI Tools,DeepL,1,0
+like,grammarly,AI Tools,Grammarly,1,0
+like,descript,AI Tools,Descript,1,0
+exact,suno,AI Tools,Suno,1,0
+exact,cursor,AI Dev Tools,Cursor,1,0
+like,lovable,AI Dev Tools,Lovable,1,0
+like,replit,AI Dev Tools,Replit,1,0
+like,windsurf,AI Dev Tools,Windsurf,1,0
+like,amazon web services,Cloud Infrastructure,Amazon Web Services,0,0
+like,google cloud,Cloud Infrastructure,Google Cloud,0,0
+like,hetzner,Cloud Infrastructure,Hetzner,0,0
+like,digitalocean,Cloud Infrastructure,DigitalOcean,0,0
+like,cloudflare,Cloud Infrastructure,Cloudflare,0,0
+exact,vercel,Cloud Infrastructure,Vercel,0,0
+exact,railway,Cloud Infrastructure,Railway,0,0
+exact,netlify,Cloud Infrastructure,Netlify,0,0
+exact,supabase,Cloud Infrastructure,Supabase,0,0
+like,ovhcloud,Cloud Infrastructure,OVHcloud,0,0
+like,scaleway,Cloud Infrastructure,Scaleway,0,0
+like,github,Dev Tools,GitHub,0,0
+like,gitlab,Dev Tools,GitLab,0,0
+like,jetbrains,Dev Tools,JetBrains,0,0
+like,atlassian,Dev Tools,Atlassian,0,0
+like,sentry,Dev Tools,Sentry,0,0
+like,docker,Dev Tools,Docker,0,0
+like,sonarsource,Dev Tools,SonarSource,0,0
+like,sonarcloud,Dev Tools,SonarSource,0,0
+like,browserstack,Dev Tools,BrowserStack,0,0
+like,twilio,Dev Tools,Twilio,0,0
+like,mailgun,Dev Tools,Mailgun,0,0
+like,ngrok,Dev Tools,Ngrok,0,0
+like,datadog,Dev Tools,Datadog,0,0
+like,postman,Dev Tools,Postman,0,0
+like,uptimerobot,Dev Tools,UptimeRobot,0,0
+like,parallels,Dev Tools,Parallels,0,0
+like,apify,Dev Tools,Apify,0,0
+like,firecrawl,Dev Tools,Firecrawl,0,0
+like,solarwinds,Dev Tools,SolarWinds,0,0
+like,teamviewer,Dev Tools,TeamViewer,0,0
+like,auth0,Dev Tools,Auth0,0,0
+like,tailscale,Dev Tools,Tailscale,0,0
+like,fivetran,Dev Tools,Fivetran,0,0
+like,messagebird,Dev Tools,MessageBird,0,0
+like,bird.com,Dev Tools,MessageBird,0,0
+like,elastic,Dev Tools,Elastic,0,0
+like,new relic,Dev Tools,New Relic,0,0
+like,newrelic,Dev Tools,New Relic,0,0
+like,pagerduty,Dev Tools,PagerDuty,0,0
+like,posthog,Dev Tools,PostHog,0,0
+like,circleci,Dev Tools,CircleCI,0,0
+like,grafana,Dev Tools,Grafana Labs,0,0
+like,mongodb,Dev Tools,MongoDB,0,0
+like,mapbox,Dev Tools,Mapbox,0,0
+like,algolia,Dev Tools,Algolia,0,0
+like,contentful,Dev Tools,Contentful,0,0
+like,lokalise,Dev Tools,Lokalise,0,0
+like,ninjaone,Dev Tools,NinjaOne,0,0
+like,kaseya,Dev Tools,Kaseya,0,0
+like,better stack,Dev Tools,Better Stack,0,0
+like,betterstack,Dev Tools,Better Stack,0,0
+like,lansweeper,Dev Tools,Lansweeper,0,0
+like,slack,Comms & Collab,Slack,0,0
+exact,zoom,Comms & Collab,Zoom,0,0
+like,zoomvideo,Comms & Collab,Zoom,0,0
+like,zoom.com,Comms & Collab,Zoom,0,0
+like,zoom.us,Comms & Collab,Zoom,0,0
+like,microsoft,Comms & Collab,Microsoft,0,0
+like,gsuite,Comms & Collab,Google Workspace,0,0
+like,notion,Comms & Collab,Notion,0,0
+like,miro,Comms & Collab,Miro,0,0
+exact,loom,Comms & Collab,Loom,0,0
+like,dropbox,Comms & Collab,Dropbox,0,0
+like,wetransfer,Comms & Collab,WeTransfer,0,0
+like,calendly,Comms & Collab,Calendly,0,0
+like,superhuman,Comms & Collab,Superhuman,0,0
+like,riverside,Comms & Collab,Riverside,0,0
+like,aircall,Comms & Collab,Aircall,0,0
+like,codetwo,Comms & Collab,CodeTwo,0,0
+like,demodesk,Comms & Collab,Demodesk,0,0
+like,monday,Project Management,Monday.com,0,0
+like,asana,Project Management,Asana,0,0
+like,linear.app,Project Management,Linear,0,0
+like,trello,Project Management,Trello,0,0
+like,clickup,Project Management,ClickUp,0,0
+like,figma,Design,Figma,0,0
+like,adobe,Design,Adobe,0,0
+like,autodesk,Design,Autodesk,0,0
+like,capcut,Design,CapCut,0,0
+like,envato,Design,Envato,0,0
+like,artlist,Design,Artlist,0,0
+like,lucid,Design,Lucid Software,0,0
+like,framer,Design,Framer,0,0
+like,vimeo,Design,Vimeo,0,0
+like,myfonts,Design,MyFonts,0,0
+like,font awesome,Design,Font Awesome,0,0
+like,pitch.com,Design,Pitch,0,0
+like,screenstudio,Design,Screen Studio,0,0
+like,epidemic sound,Design,Epidemic Sound,0,0
+like,mobbin,Design,Mobbin,0,0
+like,frame.io,Design,Frame.io,0,0
+like,salesforce,CRM & Sales,Salesforce,0,0
+like,zoho,CRM & Sales,Zoho,0,0
+like,hubspot,CRM & Sales,HubSpot,0,0
+like,pipedrive,CRM & Sales,Pipedrive,0,0
+like,clay labs,CRM & Sales,Clay,0,0
+like,apollo.io,CRM & Sales,Apollo.io,0,0
+like,lemlist,CRM & Sales,Lemlist,0,0
+like,lusha,CRM & Sales,Lusha,0,0
+like,phantombuster,CRM & Sales,PhantomBuster,0,0
+like,linkedin%recruiter,HR & People,LinkedIn Recruiter,0,0
+like,linkedinprec,HR & People,LinkedIn Recruiter,0,0
+like,linkedin,CRM & Sales,LinkedIn,0,0
+like,mailchimp,Marketing,Mailchimp,0,0
+like,klaviyo,Marketing,Klaviyo,0,0
+like,sendinblue,Marketing,Sendinblue,0,0
+like,semrush,Marketing,Semrush,0,0
+like,ahrefs,Marketing,Ahrefs,0,0
+like,typeform,Marketing,Typeform,0,0
+like,mailjet,Marketing,Mailjet,0,0
+like,x corp,Marketing,X (Twitter),0,0
+like,linktree,Marketing,Linktree,0,0
+like,bitly,Marketing,Bitly,0,0
+like,screaming frog,Marketing,Screaming Frog,0,0
+like,jotform,Marketing,Jotform,0,0
+like,contentsquare,Marketing,Contentsquare,0,0
+like,customer.io,Marketing,Customer.io,0,0
+like,customerio,Marketing,Customer.io,0,0
+like,reddit,Marketing,Reddit,0,0
+like,activecampaign,Marketing,ActiveCampaign,0,0
+like,reviews.io,Marketing,Reviews.io,0,0
+like,sistrix,Marketing,Sistrix,0,0
+like,channable,Marketing,Channable,0,0
+like,trustpilot,Marketing,Trustpilot,0,0
+like,chatarmin,Marketing,Chatarmin,0,0
+like,stackadapt,Marketing,StackAdapt,0,0
+like,personio,HR & People,Personio,0,0
+like,join.com,HR & People,Join.com,0,0
+like,leapsome,HR & People,Leapsome,0,0
+like,hibob,HR & People,HiBob,0,0
+exact,bob,HR & People,HiBob,0,0
+like,bob b v,HR & People,HiBob,0,0
+like,bamboohr,HR & People,BambooHR,0,0
+like,xero,Finance & Accounting,Xero,0,0
+like,easybill,Finance & Accounting,Easybill,0,0
+like,sevdesk,Finance & Accounting,Sevdesk,0,0
+like,getmyinvoices,Finance & Accounting,GetMyInvoices,0,0
+like,chargebee,Finance & Accounting,Chargebee,0,0
+like,xentral,Finance & Accounting,Xentral,0,0
+like,odoo,Finance & Accounting,Odoo,0,0
+like,revenuecat,Finance & Accounting,RevenueCat,0,0
+like,1password,Security,1Password,0,0
+like,bitwarden,Security,Bitwarden,0,0
+like,lastpass,Security,LastPass,0,0
+like,proton,Security,Proton,0,0
+like,vanta,Compliance,Vanta,0,0
+like,seon,Security,SEON,0,0
+like,zendesk,Customer Support,Zendesk,0,0
+like,intercom,Customer Support,Intercom,0,0
+like,freshworks,Customer Support,Freshworks,0,0
+like,gorgias,Customer Support,Gorgias,0,0
+like,zapier,Automation & No-Code,Zapier,0,0
+like,make.com,Automation & No-Code,Make,0,0
+like,n8n,Automation & No-Code,n8n,0,0
+like,airtable,Automation & No-Code,Airtable,0,0
+like,webflow,Automation & No-Code,Webflow,0,0
+exact,bubble,Automation & No-Code,Bubble,0,0
+like,bubble ,Automation & No-Code,Bubble,0,0
+like,godaddy,Web & Hosting,GoDaddy,0,0
+like,ionos,Web & Hosting,IONOS,0,0
+exact,wix,Web & Hosting,Wix,0,0
+like,wix.com,Web & Hosting,Wix,0,0
+like,squarespace,Web & Hosting,Squarespace,0,0
+like,sqsp,Web & Hosting,Squarespace,0,0
+like,united domains,Web & Hosting,United Domains,0,0
+like,elementor,Web & Hosting,Elementor,0,0
+like,eurodns,Web & Hosting,EuroDNS,0,0
+like,maxcluster,Web & Hosting,MaxCluster,0,0
+like,docusign,Legal & Compliance,DocuSign,0,0
+like,pandadoc,Legal & Compliance,PandaDoc,0,0
+like,cookiebot,Legal & Compliance,Cookiebot,0,0
+like,usercentrics,Legal & Compliance,Usercentrics,0,0
+like,borlabs,Legal & Compliance,Borlabs,0,0
+like,caya,Legal & Compliance,Caya,0,0
+like,shopify,E-commerce,Shopify,0,0
+like,udemy,Learning & Training,Udemy,0,0
+like,metabase,BI & Analytics,Metabase,0,0
+like,tableau,BI & Analytics,Tableau,0,0
+like,looker,BI & Analytics,Looker,0,0
+like,mixpanel,BI & Analytics,Mixpanel,0,0
+like,amplitude,BI & Analytics,Amplitude,0,0
+like,snowflake,BI & Analytics,Snowflake,0,0
+like,getmoss,Moss,Moss,0,1
+exact,moss,Moss,Moss,0,1
+like,google ads,Marketing,Google Ads,0,0
+like,google *ads,Marketing,Google Ads,0,0
+like,googleadwords,Marketing,Google Ads,0,0
+like,google*ads,Marketing,Google Ads,0,0
+like,facebk,Marketing,Meta Ads,0,0
+like,facebook ads,Marketing,Meta Ads,0,0
+like,meta ads,Marketing,Meta Ads,0,0
+like,linkedin ads,Marketing,LinkedIn,0,0
+like,chatgpt,AI Tools,OpenAI,1,0
+like,klarna,Fintech Services,Klarna,0,0
+like,canva,Design,Canva,0,0
+like,11x,AI Tools,11x,1,0
+like,payhawk,Fintech Services,Payhawk,0,0
+like,complyadvantage,Compliance,ComplyAdvantage,0,0
+like,bitdefender,Security,Bitdefender,0,0
+like,united-domain,Infrastructure,united-domains,0,0
+like,payrnet,Fintech Services,PayrNet,0,0
+like,railsr,Fintech Services,Railsr,0,0
+like,rapyd,Fintech Services,Rapyd,0,0
+like,airwallex,Fintech Services,Airwallex,0,0
+like,spotify,Content,Spotify,0,0
+like,netflix,Content,Netflix,0,0
+like,audible,Content,Audible,0,0
+like,kindle,Content,Kindle,0,0
+like,humblebundle,Content,Humble Bundle,0,0
+like,humble bundle,Content,Humble Bundle,0,0
+like,blinkist,Learning,Blinkist,0,0
+like,likeminded,Wellbeing,Likeminded,0,0
+like,medium.com,Content,Medium,0,0
+like,quickbooks,Finance,QuickBooks,0,0
+like,oneflow,Legal,Oneflow,0,0
+like,hunter.io,Sales,Hunter,0,0
+like,sweep,Sales,Sweep,0,0
+like,telekom,Telecom,Deutsche Telekom,0,0
+like,vodafone,Telecom,Vodafone,0,0
+like,klarmobil,Telecom,Klarmobil,0,0
+like,edeka,,,0,1
+like,rewe,,,0,1
+like,aldi,,,0,1
+like,lidl,,,0,1
+like,jumbo,,,0,1
+like,albert heijn,,,0,1
+like,wolt,,,0,1
+like,lieferando,,,0,1
+like,uber,,,0,1
+like,bolt.eu,,,0,1
+like,freenow,,,0,1
+like,taxi,,,0,1
+like,bahn,,,0,1
+like,lufthansa,,,0,1
+like,ryanair,,,0,1
+like,airbnb,,,0,1
+like,booking.com,,,0,1
+like,hotel,,,0,1
+like,restaurant,,,0,1
+like,cafe,,,0,1
+like,coffee,,,0,1
+like,bäcker,,,0,1
+like,backerei,,,0,1
+like,apotheke,,,0,1
+like,ikea,,,0,1
+like,zv-buchung,,,0,1
+like,umlage,,,0,1
+like,insolvenzgeld,,,0,1
+like,vacation,,,0,1
+like,urlaub,,,0,1
+like,guest:,,,0,1
+like,lunch,,,0,1
+like,dinner,,,0,1
+like,catering,,,0,1
+like,kaution,,,0,1
+like,notar,,,0,1
+like,rechtsanwalt,,,0,1
+like,steuerberater,,,0,1
+like,adference,,AdFerence,0,0
+like,algoexpert,,AlgoExpert,0,0
+like,align,,Align,0,0
+like,amazon prime,,Amazon Prime,0,0
+like,artivive,,Artivive,0,0
+like,ashby,HR & People,Ashby,0,0
+like,auditi,,Auditi,0,0
+like,big mountain studio,,Big Mountain Studio,0,0
+like,bluplanet digital,Marketing,BluPlanet Digital,0,0
+like,browserless,,Browserless,0,0
+like,capterra,Marketing,Capterra,0,0
+like,carriere.it,,Carriere.it,0,0
+like,cello,,Cello,0,0
+like,chatterbug,,Chatterbug,0,0
+like,c.h. beck,,C.H. Beck,0,0
+like,clari,,Clari,0,0
+like,codecademy,,Codecademy,0,0
+like,codenest school,,CodeNest School,0,0
+like,cognism,CRM & Sales,Cognism,0,0
+like,contabo,,Contabo,0,0
+like,contentoo,Content,Contentoo,0,0
+like,contrast,Security,Contrast,0,0
+like,coresignal,,Coresignal,0,0
+like,coursera,Learning,Coursera,0,0
+like,creative market,,Creative Market,0,0
+like,creditreform,Finance & Accounting,Creditreform,0,0
+like,cypress,,Cypress,0,0
+like,datacamp,,DataCamp,0,0
+like,datev,Finance & Accounting,DATEV,0,0
+like,deel,HR & People,Deel,0,0
+like,demaai,BI & Analytics,Dema,0,0
+like,demostack,,Demostack,0,0
+like,devart,,Devart,0,0
+like,dilisense,,Dilisense,0,0
+like,doit international,Cloud Infrastructure,DoiT International,0,0
+like,domain factory,Web & Hosting,Domain Factory,0,0
+like,doodle,Comms & Collab,Doodle,0,0
+like,dreamdata,BI & Analytics,Dreamdata,0,0
+like,dun & bradstreet,Finance & Accounting,Dun & Bradstreet,0,0
+like,duolingo,,Duolingo,0,0
+like,eaglestatus,Dev Tools,EagleStatus,0,0
+like,eaglestatus.io,,EagleStatus.io,0,0
+like,educative,,Educative,0,0
+like,egghead,,Egghead,0,0
+like,egghead.io,,Egghead.io,0,0
+like,emailable,,Emailable,0,0
+exact,exact,Finance & Accounting,Exact,0,0
+like,financeads,,financeAds,0,1
+like,finanz-szene,,Finanz-Szene,0,0
+like,finapi,Fintech Services,finAPI,0,0
+like,flourish,,Flourish,0,0
+like,fp&a prep,Finance & Accounting,FP&A Prep,0,0
+like,ftapi,Security,FTAPI,0,0
+like,geckoboard,BI & Analytics,Geckoboard,0,0
+like,genios,,GENIOS,0,0
+like,getcontrast,,GetContrast,0,0
+like,gini,,Gini,0,0
+like,gocardless,Fintech Services,GoCardless,0,0
+like,goodfit,CRM & Sales,GoodFit,0,0
+like,grc lab,,The GRC Lab,0,0
+like,groove,,Groove,0,0
+like,growsurf,,GrowSurf,0,0
+like,haufe,HR & People,Haufe,0,0
+like,hawk ai,,Hawk AI,0,0
+like,hotjar,,Hotjar,0,0
+like,hoxhunt,Security,HoxHunt,0,0
+like,humanlinker,,Humanlinker,0,0
+like,icomoon,Design,IcoMoon,0,0
+like,idnow,Legal & Compliance,IDnow,0,0
+like,inter.link,Cloud Infrastructure,Inter.link,0,0
+like,italki,Learning,italki,0,0
+like,itsg,,ITSG,0,0
+like,jasper,,Jasper,0,0
+like,jumpcloud,Security,JumpCloud,0,0
+like,kinderheldin,,Kinderheldin,0,0
+like,kinsta,Web & Hosting,Kinsta,0,0
+like,klazify,,Klazify,0,0
+like,klippa,Finance & Accounting,Klippa,0,0
+like,kodekloud,,KodeKloud,0,0
+like,kombo,,Kombo,0,0
+like,kryterion,,Kryterion,0,0
+like,kryterion webassessor,,Kryterion Webassessor,0,0
+like,kudoboard,,Kudoboard,0,0
+like,lacework,,Lacework,0,0
+like,ledgy,HR & People,Ledgy,0,0
+like,leetcode,,LeetCode,0,0
+like,lonescale,CRM & Sales,LoneScale,0,0
+like,lucanet,Finance & Accounting,LucaNet,0,0
+like,magix,,MAGIX,0,0
+like,manning,Learning,Manning,0,0
+like,marqeta,,Marqeta,0,1
+like,masterclass,,MasterClass,0,0
+like,mentimeter,,Mentimeter,0,0
+like,michaelpierce.trade,,michaelpierce.trade,0,0
+like,mimestream,,Mimestream,0,0
+like,mirantis,Cloud Infrastructure,Mirantis,0,0
+like,modjo,CRM & Sales,Modjo,0,0
+like,nerdwallet,Marketing,NerdWallet,0,0
+like,netcraft,Security,Netcraft,0,0
+like,netsuite,Finance & Accounting,NetSuite,0,0
+like,never5,,Never5,0,0
+like,north data,CRM & Sales,North Data,0,0
+like,onfido,Fintech Services,Onfido,0,0
+like,online qr generator,,Online QR Generator,0,0
+like,onthegosystems,,OnTheGoSystems,0,0
+like,open exchange rates,Finance & Accounting,Open Exchange Rates,0,0
+like,openup,,OpenUp,0,0
+like,openvpn,Security,OpenVPN,0,0
+like,oracle netsuite,,Oracle NetSuite,0,0
+like,partnerstack,,PartnerStack,0,0
+like,pdfaid,,PDFAid,0,0
+like,pluralsight,,Pluralsight,0,0
+like,portswigger,Security,PortSwigger,0,0
+like,pragmatic engineer,,Pragmatic Engineer,0,0
+like,preply,Learning,Preply,0,0
+like,pricehubble,,PriceHubble,0,0
+like,prismic,Web & Hosting,Prismic,0,0
+like,product growth,,Product Growth,0,0
+like,promlabs,,PromLabs,0,0
+like,proxycurl,,Proxycurl,0,0
+like,proxyman,,Proxyman,0,0
+like,raisin bank,,Raisin Bank,0,0
+like,ravio,HR & People,Ravio,0,0
+like,reviewflowz,Marketing,Reviewflowz,0,0
+like,rollbar,Dev Tools,Rollbar,0,0
+like,rosetta stone,,Rosetta Stone,0,0
+like,safetyplanner,Legal & Compliance,SafetyPlanner,0,0
+like,salesloft,CRM & Sales,Salesloft,0,0
+like,scoreapp,,ScoreApp,0,0
+like,seibert media,,Seibert Media,0,0
+like,seibert solutions,Dev Tools,Seibert Solutions,0,0
+like,semgrep,Security,Semgrep,0,0
+like,shecodes,,SheCodes,0,0
+like,skyvia,,Skyvia,0,0
+like,slidespeak,,SlideSpeak,0,0
+like,smallpdf,Productivity,SmallPDF,0,0
+like,sofatutor,,sofatutor,0,0
+like,spotler,,Spotler,0,0
+like,squirrly,,Squirrly,0,0
+like,startupdetector,CRM & Sales,Startupdetector,0,0
+like,stocksy,,Stocksy,0,0
+like,streem,,Streem,0,0
+like,stripe,,Stripe,0,1
+like,superprof,,Superprof,0,0
+like,surfe,CRM & Sales,Surfe,0,0
+like,surveysparrow,HR & People,SurveySparrow,0,0
+like,taktile,AI Tools,Taktile,0,0
+like,techcrunch,,TechCrunch,0,0
+like,terminapp,,Terminapp,0,0
+like,the economist,,The Economist,0,0
+like,thoropass,Legal & Compliance,Thoropass,0,0
+like,todoist,,Todoist,0,0
+like,total typescript,,Total TypeScript,0,0
+like,transact payments,,Transact Payments,0,1
+like,transkriptor,,Transkriptor,0,0
+like,travelperk,HR & People,TravelPerk,0,0
+like,tryhackme,,TryHackMe,0,0
+like,ui.dev,,ui.dev,0,0
+like,unsplash,,Unsplash,0,0
+like,userled,,Userled,0,0
+like,weglot,,Weglot,0,0
+like,wonderway,,Wonderway,0,0
+like,xing,,XING,0,0
+like,yapily,Fintech Services,Yapily,0,0
+like,zavvy,,Zavvy,0,0
+like,monday.com,,monday.com,0,0
+like,freshdesk,,Freshdesk,0,0
+like,sendgrid,,SendGrid,0,0
+like,brevo,,Brevo,0,0
+exact,aws,,AWS,0,0
+like,heroku,,Heroku,0,0
+like,paddle,Finance & Accounting,Paddle,0,0
+like,bitbucket,,Bitbucket,0,0
+like,databricks,,Databricks,0,0
+like,surveymonkey,,SurveyMonkey,0,0
+exact,segment,,Segment,0,0
+like,powerbi,,Power BI,0,0
+like,power bi,,Power BI,0,0
+like,okta,,Okta,0,0
+like,1nce,,1NCE,0,0
+like,gong.io,,Gong,0,0
+like,outreach.io,,Outreach,0,0
+like,zoominfo,,ZoomInfo,0,0
+like,close.com,,Close,0,0
+like,retool,,Retool,0,0
+like,wordpress,,WordPress,0,0
+like,moz.com,,Moz,0,0
+like,firebase,,Firebase,0,0
+like,twingate,,Twingate,0,0
+like,nordvpn,,NordVPN,0,0
+like,dashlane,,Dashlane,0,0
+like,crowdstrike,,CrowdStrike,0,0
+like,sophos,,Sophos,0,0
+like,anydesk,,AnyDesk,0,0
+like,gotomeeting,,GoToMeeting,0,0
+like,webex,,Webex,0,0
+like,ringcentral,,RingCentral,0,0
+like,dialpad,,Dialpad,0,0
+like,workday,,Workday,0,0
+like,gusto,,Gusto,0,0
+like,remote.com,,Remote,0,0
+like,greenhouse,,Greenhouse,0,0
+like,lever.co,,Lever,0,0
+like,hellosign,,Dropbox Sign,0,0
+like,confluence,,Atlassian,0,0
+like,basecamp,,Basecamp,0,0
+like,evernote,,Evernote,0,0
+like,obsidian,,Obsidian,0,0
+like,quip,Comms & Collab,Quip,0,0
+like,coda.io,,Coda,0,0
+like,smartsheet,,Smartsheet,0,0
+like,wrike,,Wrike,0,0
+like,sana labs,Learning,Sana,0,0
+like,teamlead talks,Learning,TeamLead Talks,0,0
+like,teamleadtalks,Learning,TeamLead Talks,0,0
+like,railsbank,Fintech Services,Railsr,0,0
+like,business insider,Content,Business Insider,0,0
+like,manager magazin,Content,Manager Magazin,0,0
+like,related posts,Infrastructure,Related Posts for WordPress,0,0
+like,riecken,Infrastructure,Riecken Webservice,0,0
+like,threejs-journey,Learning,Three.js Journey,0,0
+like,name-cheap,Infrastructure,Namecheap,0,0
+like,qbooks online,Finance,QuickBooks Online,0,0
+like,frontend masters,Learning,Frontend Masters,0,0
+like,linux foundation,Learning,Linux Foundation,0,0
+like,iban.com,Fintech Services,IBAN.com,0,0
+like,cornelsen,Learning,Cornelsen eCademy,0,0
+like,dracula,Design,Dracula Pro,0,0
+like,corporate finance institute,Learning,Corporate Finance Institute,0,0
+like,apple.com/de,Hardware & Software,Apple.com/DE,0,0
+like,amazon business,Procurement,Amazon Business,0,0
+like,charliehr,HR & People,CharlieHR,0,0
+like,everphone,HR & People,Everphone,0,0
+like,urban sports,Wellbeing,Urban Sports,0,0
+like,doktus,HR & People,Doktus,0,0
+like,office 365,Comms & Collab,Microsoft 365,0,0
+like,cp wave,ERP,CP Wave,0,0
+like,nornorm,Infrastructure,Nornorm,0,0
+like,g2.com,Marketing,G2.com,0,0
+like,pult,Infrastructure,Pult,0,0
+like,atlar,Fintech Services,Atlar,0,0
+like,aim-x,Marketing,AIM-X,0,0
+like,public cloud group,Cloud Infrastructure,Public Cloud Group,0,0
+like,statista,Research,Statista,0,0
+like,storylane,Sales,Storylane,0,0
+like,medium annual,Content,Medium,0,0
+like,mindspace,Infrastructure,Mindspace,0,0
+like,topi gmbh,HR & People,topi,0,0
+like,ironclad,Legal & Compliance,Ironclad,0,0
+like,dealfront,CRM & Sales,Dealfront,0,0
+like,jobbatical,HR & People,Jobbatical,0,0
+like,new work se,CRM & Sales,New Work SE,0,0
+like,hyrise,HR & People,hyrise,0,0
+like,juicebox,HR & People,Juicebox,0,0
+like,peoplegpt,HR & People,Juicebox,0,0
+like,magnific,AI Tools,Magnific AI,1,0
+like,coldreach,Sales,Coldreach,0,0
+like,brandfetch,Design,Brandfetch,0,0
+like,convert.com,Marketing,Convert.com,0,0
+like,babbel,Learning,Babbel,0,0
+like,hipeople,HR & People,HiPeople,0,0
+like,frontendmasters,Learning,Frontend Masters,0,0
+like,lennys newsletter,Content,Lenny's Newsletter,0,0
+like,lyssna,Design,Lyssna,0,0
+like,usabilityhub,Design,Lyssna,0,0
+like,maze.design,Design,Maze,0,0
+like,gaia technologies,Legal & Compliance,GAIA Technologies,0,0
+exact,medium,Content,Medium,0,0
+exact,topi,HR & People,topi,0,0
+exact,new work,CRM & Sales,New Work SE,0,0
+like,"newwork,",CRM & Sales,New Work SE,0,0
+like,babbel.com,Learning,Babbel,0,0
+like,convertflow,Marketing,ConvertFlow,0,0
+like,corporatefinanceinst,Learning,CorporateFinanceInst,0,0
+like,"cursor, ai powered",AI Tools,Cursor,1,0
+exact,cursor l&d,AI Tools,Cursor,1,0
+like,www.dazn.com,Content,DAZN,0,0
+like,dealfront group,CRM & Sales,Dealfront,0,0
+like,everphone finance,HR & People,Everphone,0,0
+like,excalidraw,Design,Excalidraw,0,0
+like,hackinghub,Learning,HackingHub,0,0
+like,iapp.org,Learning,IAPP,0,0
+like,jitter.video,Design,Jitter,0,0
+exact,jitter,Design,Jitter,0,0
+like,juicebox (peoplegpt),HR & People,Juicebox,0,0
+like,lennysproductpass,Content,Lenny's Newsletter,0,0
+like,office 365 e3,Comms & Collab,Microsoft 365,0,0
+like,orbstack,Engineering,Orbstack,0,0
+like,omr reviews,Marketing,OMR Reviews,0,0
+like,software reviews gmbh,Marketing,OMR Reviews,0,0
+like,lingoda,Learning,Lingoda,0,0
+like,opus clip,AI Tools,Opus Clip,1,0
+like,veed,AI Tools,VEED,1,0
+like,superwhisper,AI Tools,Superwhisper,1,0
+like,benwick,Sales,BENWICK,0,0
+like,callcloud,Comms & Collab,CallCloud,0,0
+like,cloudfind,Marketing,Cloudfind,0,0
+like,datafabrik,Analytics,DataFabrik,0,0
+like,demand conversion,Marketing,Demand Conversion,0,0
+like,graphite growth,Marketing,Graphite Growth,0,0
+like,levered,Finance,Levered,0,0
+like,powerplay,Marketing,POWERPLAY,0,0
+like,pragmaticengineer,Learning,Pragmatic Engineer,0,0
+like,premiumbeat,Content,PremiumBeat,0,0
+like,sendspark,Sales,Sendspark,0,0
+like,springer.com,Learning,Springer,0,0
+like,www.springer.com,Learning,Springer,0,0
+like,builtformars,Content,Built for Mars,0,0
+like,fusionbase,Data,Fusionbase,0,0
+like,matchr.io,HR & People,Matchr,0,0
+like,impactradius,Marketing,Impact,0,0
+like,impact.com,Marketing,Impact,0,0
+like,pplwise,HR & People,pplwise,0,0
+like,waybler,HR & People,Waybler,0,0
+like,saifedean,Content,Saifedean,0,0
+like,vistaprint,Marketing,Vistaprint,0,0
+like,msft *,Comms & Collab,Microsoft 365,0,0
+like,lenny's newsletter,Content,Lenny's Newsletter,0,0
+like,sonetel,Comms & Collab,Sonetel,0,0
+like,atlassin cloud,Engineering,Seibert Solutions,0,0
+like,atlassian cloud,Engineering,Seibert Solutions,0,0
+like,northdata,Data,North Data,0,0
+like,climatiq,Data,Climatiq,0,0
+like,realtimeboard,Design,Miro,0,0
+like,datazeit,Analytics,Datazeit,0,0
+like,gallup,HR & People,Gallup,0,0
+exact,cockatoo,AI Tools,Cockatoo,1,0
+like,cockatoo inc,AI Tools,Cockatoo,1,0
+exact,thunderbit,AI Tools,Thunderbit,1,0
+like,"thunderbit, inc",AI Tools,Thunderbit,1,0
+like,getalign.com,HR & People,Getalign,0,0
+exact,ionite,Engineering,Ionite,0,0
+like,ionite b.v,Engineering,Ionite,0,0
+exact,akontech,Engineering,Akontech,0,0
+exact,tradingtwins,Finance,tradingtwins,0,0
+exact,monsator,Engineering,Monsator,0,0
+like,moreapp,Engineering,MoreApp,0,0
+like,theyo labs,HR & People,Theyo Labs,0,0
+like,breeze technologies,Engineering,Breeze Technologies,0,0
+exact,ebitwise,Marketing,Ebitwise,0,0
+exact,financelabs,Finance,FinanceLabs,0,0
+like,fresh compliance,Legal & Compliance,Fresh Compliance,0,0
+exact,logisticact,Engineering,LogisticAct,0,0
+exact,passion4business,Learning,Passion4Business,0,0
+like,coaldreach,Sales,Coldreach,0,0
+like,gen25,Engineering,Gen25,0,0
+like,dunit international,Engineering,DoiT International,0,0
+like,accountancy-software,Review Platforms,Accountancy-software.NU,0,0
+like,nerosoft,Security,Nerosoft IT-Security,0,0
+like,growster,Marketing,Growster,0,0
+like,frase,AI Tools,FRASE,1,0
+like,gumroad,E-commerce,GUMROAD,0,0
+like,learn-wasm,Learning,LEARN-WASM.DEV,0,0
+like,duna,HR & People,Duna,0,0
+like,ai certs,Learning,AI CERTS,1,0
+like,skool.com,Learning,SKOOL.COM,0,0
+like,mullvad,Security,Mullvad VPN,0,0
+like,perk platform,HR & People,PERK PLATFORM,0,0
+like,avangate,E-commerce,AVANGATE,0,0
+like,betterroaming,Telecom,betterroaming.com,0,0
+like,mondu,Fintech,Mondu,0,0
+like,pip decks,Learning,PIP DECKS,0,0
+like,polar.sh,Developer Tools,POLAR,0,0
+like,rsb platform,Fintech,RSB Platformgebühren,0,0
+like,soon technologies,HR & People,Soon Technologies,0,0
+like,paybyphone,Fintech,PAYBYPHONE DEUTSCHLAND,0,0
+like,fmk compare,Sales Intelligence,FMK Compare,0,0
+like,intelligentsystems,Software,IntelligentSystems,0,0
+like,paddle.net,Fintech,Paddle,0,0
+like,cloudfactory,AI Tools,Cloudfactory,1,0
+like,exact online,Finance & Accounting,Exact Online,0,0
+like,exact software,Finance & Accounting,Exact Online,0,0
+like,favikon,Marketing,Favikon,0,0
+like,resistant ai,Security,Resistant AI,1,0
+like,sage group,Finance & Accounting,Sage,0,0
+like,aerocloud,Software,Aerocloud Systems,0,0
+like,avalor ai,Security,Avalor AI,1,0
+like,pearsoneduc,Learning,Pearson,0,0
+like,pragprog,Learning,Pragmatic Programmers,0,0
+like,ak tronic,Software,ak tronic Software & Services,0,0
+like,omr software reviews,Review Platforms,OMR Software Reviews,0,0
+like,omr reviews ppc,Review Platforms,OMR Software Reviews,0,0
+like,digicert,Security,DigiCert,0,0
+like,peregrin studio,Software,Peregrin Studio,0,0
+like,sp gecko technology,Software,SP GECKO TECHNOLOGY,0,0
+like,openregister,Legal & Compliance,OPENREGISTER,0,0

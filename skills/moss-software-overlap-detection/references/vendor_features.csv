@@ -1,0 +1,309 @@
+# vendor_features.csv — Functional feature map for overlap scoring
+# canonical: matches canonical field in vendor_taxonomy.csv
+# category: primary category (same as taxonomy)
+# features: semicolon-separated feature tags — used for Jaccard overlap calculation
+# Overlap grades: LOW 0–25%, MEDIUM 25–50%, HIGH 50–75%, CRITICAL 75–100%
+
+canonical,category,features
+
+# ── Comms & Collab ─────────────────────────────────────────────────────────
+Slack,Comms & Collab,chat;channels;threads;dm;file_sharing;integrations;audio_calls;video_calls;screen_sharing;recordings;transcription;status
+Zoom,Comms & Collab,video_calls;audio_calls;meetings;webinar;screen_sharing;recordings;transcription;chat;file_sharing
+Microsoft 365,Comms & Collab,chat;channels;video_calls;audio_calls;meetings;email;calendar;docs;file_sharing;screen_sharing;recordings;transcription;phone_system;integrations
+Microsoft,Comms & Collab,chat;channels;video_calls;audio_calls;meetings;email;calendar;docs;file_sharing;screen_sharing;recordings;transcription;phone_system;integrations
+Google Workspace,Comms & Collab,email;calendar;docs;file_sharing;video_calls;meetings;chat;screen_sharing;integrations
+Google Meet,Communication,video_calls;audio_calls;meetings;screen_sharing;recordings;transcription
+Notion,Comms & Collab,wiki;docs;databases;tasks;kanban;calendar;integrations
+Miro,Comms & Collab,whiteboard;collaboration;diagramming;wireframing;prototyping;templates;integrations
+Loom,Comms & Collab,async_video;recordings;screen_sharing;transcription
+Dropbox,Comms & Collab,file_sharing;file_sync;collaboration
+WeTransfer,Comms & Collab,file_sharing
+Calendly,Comms & Collab,scheduling;calendar;meetings
+Doodle,Comms & Collab,scheduling;calendar;meetings
+Superhuman,Comms & Collab,email;integrations
+Riverside,Comms & Collab,recordings;video_calls;transcription;async_video
+Aircall,Comms & Collab,phone_system;audio_calls;contact_center;integrations
+Demodesk,Comms & Collab,video_calls;screen_sharing;meetings;recordings;transcription
+Quip,Comms & Collab,docs;collaboration;chat;spreadsheets
+Sonetel,Comms & Collab,phone_system;audio_calls;chat
+CallCloud,Comms & Collab,phone_system;audio_calls;contact_center
+CodeTwo,Comms & Collab,email;integrations
+
+# ── Project Management ─────────────────────────────────────────────────────
+Monday.com,Project Management,kanban;gantt;task_management;automation;reporting;templates;integrations;time_tracking;workload;docs
+Asana,Project Management,task_management;kanban;gantt;timeline;automation;reporting;templates;integrations;time_tracking;goals
+Linear,Project Management,issue_tracking;kanban;sprints;roadmap;automation;integrations;dependencies
+Trello,Project Management,kanban;task_management;automation;templates;integrations
+ClickUp,Project Management,task_management;kanban;gantt;sprints;time_tracking;docs;automation;reporting;templates;integrations;goals
+Basecamp,Project Management,task_management;docs;file_sharing;chat;scheduling
+Smartsheet,Project Management,task_management;gantt;automation;reporting;templates;workload
+Wrike,Project Management,task_management;gantt;automation;reporting;templates;time_tracking;workload
+
+# ── Design ─────────────────────────────────────────────────────────────────
+Figma,Design,ui_ux_design;prototyping;collaboration;design_system;wireframing;vector_design;components
+Adobe,Design,vector_design;photo_editing;video_editing;prototyping;ui_ux_design;font_assets;brand_assets;stock_assets
+Canva,Design,presentation;brand_assets;photo_editing;video_editing;templates;design_system
+Lucid Software,Design,diagramming;whiteboard;wireframing;templates;collaboration
+Framer,Design,ui_ux_design;prototyping;website_builder;animation;collaboration
+Pitch,Design,presentation;collaboration;templates
+Excalidraw,Design,whiteboard;diagramming;wireframing;collaboration
+Jitter,Design,motion;animation;video_editing;templates
+Lyssna,Design,user_research;prototyping;testing
+Maze,Design,user_research;prototyping;testing
+Vimeo,Design,video_hosting;recordings
+Screen Studio,Design,async_video;recordings;screen_sharing
+Frame.io,Design,video_editing;collaboration;recordings
+Mobbin,Design,ui_ux_design;inspiration;design_reference
+Brandfetch,Design,brand_assets
+
+# ── CRM & Sales ────────────────────────────────────────────────────────────
+Salesforce,CRM & Sales,crm;pipeline;reporting;automation;integrations;email_sequences;lead_enrichment
+HubSpot,CRM & Sales,crm;pipeline;email_sequences;marketing_automation;reporting;integrations;live_chat
+Zoho,CRM & Sales,crm;pipeline;email_sequences;automation;reporting;integrations
+Pipedrive,CRM & Sales,crm;pipeline;email_sequences;reporting;integrations
+Clay,CRM & Sales,lead_enrichment;prospecting;automation;integrations
+Apollo.io,CRM & Sales,prospecting;lead_enrichment;email_sequences;crm
+Lemlist,CRM & Sales,email_sequences;linkedin_outreach;prospecting
+Lusha,CRM & Sales,lead_enrichment;prospecting
+PhantomBuster,CRM & Sales,linkedin_outreach;lead_generation;automation
+Cognism,CRM & Sales,lead_enrichment;prospecting;intent_data
+Dealfront,CRM & Sales,lead_enrichment;prospecting;intent_data
+ZoomInfo,CRM & Sales,lead_enrichment;prospecting;intent_data
+LoneScale,CRM & Sales,lead_enrichment;prospecting
+Modjo,CRM & Sales,conversation_intelligence;meeting_intelligence;crm
+Salesloft,CRM & Sales,email_sequences;crm;automation;reporting
+Outreach,CRM & Sales,email_sequences;crm;automation;reporting
+Gong,CRM & Sales,conversation_intelligence;meeting_intelligence;crm;reporting
+Close,CRM & Sales,crm;pipeline;email_sequences;phone_calls
+North Data,CRM & Sales,lead_enrichment;company_data
+GoodFit,CRM & Sales,lead_enrichment;prospecting
+Surfe,CRM & Sales,linkedin_outreach;crm;lead_enrichment
+LinkedIn,CRM & Sales,prospecting;lead_enrichment;social_selling;networking
+
+# ── AI Tools ───────────────────────────────────────────────────────────────
+OpenAI,AI Tools,text_generation;coding_assistant;image_generation;research;chatbot;api
+Anthropic,AI Tools,text_generation;coding_assistant;research;chatbot;api
+Perplexity,AI Tools,research;text_generation
+Mistral,AI Tools,text_generation;coding_assistant;api
+xAI,AI Tools,text_generation;research;chatbot;api
+Midjourney,AI Tools,image_generation
+Runway,AI Tools,video_generation;image_generation;video_editing
+HeyGen,AI Tools,video_generation;avatar;voice_cloning
+Synthesia,AI Tools,video_generation;avatar;voice_cloning
+KlingAI,AI Tools,video_generation;image_generation
+ElevenLabs,AI Tools,audio_generation;voice_cloning;transcription
+Wispr,AI Tools,transcription;voice_input
+Superwhisper,AI Tools,transcription;voice_input
+Cockatoo,AI Tools,transcription
+Fireflies,AI Tools,meeting_notes;transcription;integrations
+Granola,AI Tools,meeting_notes;transcription
+Descript,AI Tools,video_editing;transcription;audio_generation;recordings
+Grammarly,AI Tools,writing_assistant;text_generation
+DeepL,AI Tools,translation;text_generation
+Gamma,AI Tools,presentation_ai;text_generation
+Opus Clip,AI Tools,video_editing;clips_ai
+VEED,AI Tools,video_editing;transcription;video_generation
+Taktile,AI Tools,decision_automation;api
+Magnific AI,AI Tools,image_generation;image_upscaling
+Krea AI,AI Tools,image_generation;video_generation
+OpenRouter,AI Tools,api;text_generation
+Langdock,AI Tools,chatbot;text_generation;workflow_ai
+FRASE,AI Tools,text_generation;seo_content;writing_assistant
+11x,AI Tools,lead_generation;automation;ai_agent
+
+# ── AI Dev Tools ───────────────────────────────────────────────────────────
+Cursor,AI Dev Tools,coding_assistant;code_editor;ai_code_completion;code_generation
+Windsurf,AI Dev Tools,coding_assistant;code_editor;ai_code_completion;code_generation
+Lovable,AI Dev Tools,app_builder;code_generation;ai_code_completion
+Replit,AI Dev Tools,code_editor;app_builder;ai_code_completion;hosting
+
+# ── Security ───────────────────────────────────────────────────────────────
+1Password,Security,password_manager;secrets_management;team_sharing
+Bitwarden,Security,password_manager;secrets_management;team_sharing
+LastPass,Security,password_manager;team_sharing
+Dashlane,Security,password_manager;team_sharing
+OpenVPN,Security,vpn;network_security
+NordVPN,Security,vpn;network_security
+Mullvad VPN,Security,vpn;network_security
+Tailscale,Security,vpn;network_security;zero_trust
+Twingate,Security,vpn;zero_trust;network_security
+JumpCloud,Security,identity;sso;mdm;directory
+Okta,Security,identity;sso;mfa
+Auth0,Security,identity;sso;developer_authentication
+CrowdStrike,Security,endpoint_security;threat_detection
+Sophos,Security,endpoint_security;threat_detection;email_security
+Bitdefender,Security,endpoint_security;threat_detection
+HoxHunt,Security,phishing_training;security_awareness
+Semgrep,Security,code_security;vulnerability_scanning
+FTAPI,Security,file_encryption;secure_file_transfer
+Proton,Security,email;vpn;file_encryption;password_manager
+SEON,Security,fraud_detection
+Resistant AI,Security,fraud_detection;document_verification
+Contrast,Security,application_security;vulnerability_scanning;runtime_protection;dast
+PortSwigger,Security,web_app_security;vulnerability_scanning;penetration_testing;dast
+Netcraft,Security,threat_intelligence;phishing_protection;brand_protection;domain_monitoring
+
+# ── Finance & Accounting ───────────────────────────────────────────────────
+Xero,Finance & Accounting,bookkeeping;invoicing;bank_reconciliation;payroll;reporting;tax
+Sevdesk,Finance & Accounting,invoicing;bookkeeping;expense_management;tax
+Easybill,Finance & Accounting,invoicing
+NetSuite,Finance & Accounting,erp;bookkeeping;payroll;financial_reporting;crm;inventory
+Odoo,Finance & Accounting,erp;bookkeeping;invoicing;crm;inventory
+Sage,Finance & Accounting,bookkeeping;invoicing;payroll;financial_reporting
+QuickBooks,Finance & Accounting,bookkeeping;invoicing;payroll;bank_reconciliation;tax
+Exact Online,Finance & Accounting,bookkeeping;invoicing;payroll;financial_reporting;erp
+LucaNet,Finance & Accounting,financial_reporting;consolidation;planning
+Chargebee,Finance & Accounting,subscription_billing;revenue_recognition;invoicing
+RevenueCat,Finance & Accounting,subscription_billing;revenue_recognition
+Klippa,Finance & Accounting,expense_management;invoice_processing;ocr
+GetMyInvoices,Finance & Accounting,invoice_processing;expense_management
+DATEV,Finance & Accounting,bookkeeping;tax;payroll;financial_reporting
+Paddle,Finance & Accounting,subscription_billing;invoicing;tax
+Creditreform,Finance & Accounting,credit_risk;company_data
+Dun & Bradstreet,Finance & Accounting,credit_risk;company_data
+Xentral,Finance & Accounting,erp;invoicing;inventory
+
+# ── HR & People ────────────────────────────────────────────────────────────
+Personio,HR & People,hris;recruitment;payroll;onboarding;time_off;performance;reporting
+HiBob,HR & People,hris;onboarding;time_off;performance;engagement;org_chart
+BambooHR,HR & People,hris;recruitment;onboarding;time_off;performance;payroll
+Workday,HR & People,hris;payroll;recruitment;time_off;performance;financial_reporting
+Gusto,HR & People,hris;payroll;benefits;onboarding
+Leapsome,HR & People,performance;engagement;learning;goals
+Ashby,HR & People,recruitment;ats;reporting
+Greenhouse,HR & People,recruitment;ats;onboarding;reporting
+Lever,HR & People,recruitment;ats;reporting
+Deel,HR & People,hris;payroll;contractor_management;compliance
+Remote,HR & People,hris;payroll;contractor_management;compliance
+LinkedIn Recruiter,HR & People,recruitment;prospecting;employer_branding
+Ravio,HR & People,compensation
+Ledgy,HR & People,equity
+SurveySparrow,HR & People,engagement;surveys
+TravelPerk,HR & People,travel
+HiPeople,HR & People,recruitment;assessment
+CharlieHR,HR & People,hris;time_off;onboarding
+Everphone,HR & People,device_management
+Gallup,HR & People,engagement;surveys
+
+# ── BI & Analytics ─────────────────────────────────────────────────────────
+Metabase,BI & Analytics,dashboards;sql_queries;data_visualization;reporting
+Tableau,BI & Analytics,dashboards;data_visualization;reporting
+Looker,BI & Analytics,dashboards;sql_queries;data_visualization;data_warehouse
+Power BI,BI & Analytics,dashboards;data_visualization;reporting
+Mixpanel,BI & Analytics,product_analytics;dashboards;data_visualization;ab_testing
+Amplitude,BI & Analytics,product_analytics;dashboards;data_visualization;ab_testing
+Snowflake,BI & Analytics,data_warehouse;etl;sql_queries
+Dreamdata,BI & Analytics,revenue_analytics;attribution;reporting
+Geckoboard,BI & Analytics,dashboards;data_visualization
+
+# ── Automation & No-Code ───────────────────────────────────────────────────
+Zapier,Automation & No-Code,workflow_automation;api_integrations;triggers
+Make,Automation & No-Code,workflow_automation;api_integrations;triggers
+n8n,Automation & No-Code,workflow_automation;api_integrations;triggers;self_hosted
+Airtable,Automation & No-Code,database;workflow_automation;app_builder;collaboration
+Webflow,Automation & No-Code,website_builder;cms;hosting
+Bubble,Automation & No-Code,app_builder;website_builder;database
+
+# ── Customer Support ───────────────────────────────────────────────────────
+Zendesk,Customer Support,ticketing;live_chat;help_center;email_support;chatbot;reporting;phone_support
+Intercom,Customer Support,live_chat;chatbot;help_center;email_support;ticketing;customer_data
+Freshworks,Customer Support,ticketing;live_chat;help_center;email_support;chatbot;reporting
+Freshdesk,Customer Support,ticketing;live_chat;help_center;email_support;chatbot;reporting
+Gorgias,Customer Support,ticketing;email_support;live_chat;integrations
+
+# ── Cloud Infrastructure ────────────────────────────────────────────────────
+# Note: DoiT and Public Cloud Group are FinOps/reseller layers on top of
+# hyperscalers, not compute providers themselves — tagged distinctly on
+# purpose so they don't show false-positive overlap with Google Cloud/Mirantis.
+Google Cloud,Cloud Infrastructure,compute;storage;networking;databases;kubernetes;serverless;ai_ml
+Vercel,Cloud Infrastructure,hosting;serverless;cdn;deployment;edge_functions
+Mirantis,Cloud Infrastructure,kubernetes;private_cloud;compute;container_orchestration
+DoiT International,Cloud Infrastructure,cloud_cost_optimization;cloud_billing;finops;multicloud_management
+Public Cloud Group,Cloud Infrastructure,cloud_reseller;managed_services;multicloud_consulting
+
+# ── Dev Tools — overlap subclusters ────────────────────────────────────────
+# Source control / CI
+GitHub,Dev Tools,git;code_hosting;ci_cd;code_review;issue_tracking;packages;actions
+GitLab,Dev Tools,git;code_hosting;ci_cd;code_review;issue_tracking;devops;packages
+Atlassian,Dev Tools,issue_tracking;kanban;wiki;ci_cd;code_review;git
+CircleCI,Dev Tools,ci_cd;automation;testing
+
+# Monitoring / observability
+Datadog,Dev Tools,monitoring;alerting;logging;apm;dashboards;tracing
+New Relic,Dev Tools,monitoring;alerting;logging;apm;dashboards;tracing
+Grafana Labs,Dev Tools,monitoring;dashboards;alerting;logging
+Better Stack,Dev Tools,monitoring;alerting;logging;status_page
+PagerDuty,Dev Tools,alerting;incident_management;on_call
+Sentry,Dev Tools,error_tracking;apm;alerting
+Rollbar,Dev Tools,error_tracking;alerting
+Elastic,Dev Tools,logging;search;apm;monitoring
+
+# Remote access / IT management
+TeamViewer,Dev Tools,remote_access;support;screen_sharing
+AnyDesk,Dev Tools,remote_access;support;screen_sharing
+SolarWinds,Dev Tools,monitoring;it_management;remote_access
+NinjaOne,Dev Tools,it_management;remote_access;monitoring
+Kaseya,Dev Tools,it_management;remote_access;monitoring
+Lansweeper,Dev Tools,it_management;asset_discovery
+
+# Transactional email / SMS
+Twilio,Dev Tools,sms;voice_api;email_api;communications_api
+Mailgun,Dev Tools,transactional_email;email_api
+MessageBird,Dev Tools,sms;voice_api;email_api;communications_api
+SendGrid,Dev Tools,transactional_email;email_api
+
+# Database / data
+MongoDB,Dev Tools,database;cloud_database
+Supabase,Cloud Infrastructure,database;auth;storage;api
+Firebase,Dev Tools,database;auth;hosting;push_notifications
+
+# Auth
+Auth0,Dev Tools,identity;sso;developer_authentication
+Okta,Security,identity;sso;mfa
+
+# Analytics / product intelligence
+PostHog,Dev Tools,product_analytics;error_tracking;feature_flags;session_replay
+Mixpanel,BI & Analytics,product_analytics;dashboards;data_visualization;ab_testing
+Amplitude,BI & Analytics,product_analytics;dashboards;data_visualization;ab_testing
+
+# ── Marketing ──────────────────────────────────────────────────────────────
+# Email marketing
+Mailchimp,Marketing,email_marketing;automation;audience_management;reporting
+Klaviyo,Marketing,email_marketing;sms_marketing;automation;audience_management;reporting
+Sendinblue,Marketing,email_marketing;sms_marketing;automation;reporting
+Mailjet,Marketing,email_marketing;transactional_email;automation
+Brevo,Marketing,email_marketing;sms_marketing;automation;crm;reporting
+ActiveCampaign,Marketing,email_marketing;automation;crm;reporting
+Customer.io,Marketing,email_marketing;sms_marketing;push_notifications;automation
+
+# SEO
+Semrush,Marketing,seo;keyword_research;backlink_analysis;site_audit;competitor_analysis
+Ahrefs,Marketing,seo;keyword_research;backlink_analysis;site_audit;competitor_analysis
+Moz,Marketing,seo;keyword_research;backlink_analysis;site_audit
+Sistrix,Marketing,seo;keyword_research;site_audit
+
+# Forms / surveys
+Typeform,Marketing,forms;surveys;lead_capture
+Jotform,Marketing,forms;surveys;lead_capture
+SurveyMonkey,Marketing,forms;surveys;reporting
+
+# Web & Hosting ────────────────────────────────────────────────────────────
+GoDaddy,Web & Hosting,domain_registration;hosting;website_builder
+IONOS,Web & Hosting,domain_registration;hosting;email
+Wix,Web & Hosting,website_builder;hosting;domain_registration
+Squarespace,Web & Hosting,website_builder;hosting;ecommerce
+WordPress,Web & Hosting,cms;website_builder;hosting
+Webflow,Automation & No-Code,website_builder;cms;hosting
+Kinsta,Web & Hosting,hosting;managed_wordpress
+
+# Legal & Compliance ────────────────────────────────────────────────────────
+DocuSign,Legal & Compliance,esignature;document_management
+PandaDoc,Legal & Compliance,esignature;document_management;proposals
+Dropbox Sign,Legal & Compliance,esignature
+Oneflow,Legal & Compliance,esignature;contract_management
+Ironclad,Legal & Compliance,contract_management;esignature;workflow
+Cookiebot,Legal & Compliance,cookie_consent;privacy_compliance
+Usercentrics,Legal & Compliance,cookie_consent;privacy_compliance
+Borlabs,Legal & Compliance,cookie_consent;privacy_compliance
+Vanta,Compliance,compliance_automation;security_audits;soc2
+Thoropass,Legal & Compliance,compliance_automation;security_audits;soc2

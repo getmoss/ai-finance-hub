@@ -10,6 +10,7 @@ The skills are also listed, with a demo for each, in the [Moss AI Hub](https://w
 | Folder | Content |
 | --- | --- |
 | [`mcp-use-cases/`](mcp-use-cases) | Skills that answer one finance task each from your live Moss data through the Moss MCP. One folder per skill, each with a `SKILL.md` with the instructions for the AI assistant. |
+| [`skills/`](skills) | General skills that do not need the Moss MCP. Today they analyse an export of software and SaaS transactions, from a first list of vendors to an overlap report. They work on a file you give them and run bundled Python scripts. One folder per skill, each with a `SKILL.md`, a `scripts/` folder and a `references/` folder. |
 
 ### MCP use cases
 
@@ -69,9 +70,19 @@ These skills are examples that answer one finance task each, from your live Moss
 | [Vendors by Spend](mcp-use-cases/moss-vendors-by-spend) | Ranks your biggest vendors by spend across cards, invoices and reimbursements, with every transaction listed underneath. | Spend analysis and reporting, Suppliers |
 | [Zero VAT Check](mcp-use-cases/moss-zero-vat-check) | Lists transactions booked on zero VAT and flags unusual ones and home or EU suppliers first. | Reviewing before export, Suppliers |
 
+### Software spend skills
+
+These skills work on a transaction export that you give them, so they do not need the Moss MCP. They run Python scripts that come with the skill, so use an assistant that can run code. Each one goes a step further than the one before.
+
+| Skill | What it does | Categories |
+| --- | --- | --- |
+| [Software Spend Surface](skills/moss-software-spend-surface) | Finds which transactions are software or SaaS spend, merges the name variants of each vendor and describes each tool in one line. | Spend analysis |
+| [Software Spend Intelligence](skills/moss-software-spend-intelligence) | Builds an Excel workbook from the export: spend per vendor and month, billing patterns, anomaly flags and a budget versus actual template, all with live formulas. | Spend analysis |
+| [Software Overlap Detection](skills/moss-software-overlap-detection) | Finds duplicate subscriptions, parallel contracts and tools with overlapping features, and recommends what to do about each. | Spend analysis |
+
 ## Before you start
 
-The skills read your data through the Moss MCP, so the Moss MCP has to be connected to your AI assistant first. The steps for Claude and ChatGPT are on the page of each skill in the [Moss AI Hub](https://www.getmoss.com/en-gb/ai-in-finance).
+The MCP use cases read your data through the Moss MCP, so the Moss MCP has to be connected to your AI assistant first. The software spend skills need no connection, they work on the file you upload. The steps for Claude and ChatGPT are on the page of each skill in the [Moss AI Hub](https://www.getmoss.com/en-gb/ai-in-finance).
 
 ## Install a skill
 
@@ -120,6 +131,11 @@ Open the `SKILL.md` of the skill, copy the text below the heading and paste it i
 ```
 mcp-use-cases/<skill-name>/
   SKILL.md    # name and description at the top, then the instructions
+
+skills/<skill-name>/
+  SKILL.md    # name and description at the top, then the instructions
+  scripts/    # Python scripts the skill runs
+  references/ # lookup tables the scripts read
 ```
 
 - The folder name and the `name` in the file are the same, and start with `moss-`.

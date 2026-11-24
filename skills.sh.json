@@ -1,4 +1,4 @@
 {
   "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
-  "paths": ["./mcp-use-cases"]
+  "paths": ["./mcp-use-cases", "./skills"]
 }
